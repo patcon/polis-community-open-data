@@ -6,12 +6,15 @@ CSV_FILE = "conversations.csv"
 
 # Load the CSV data
 df = pd.read_csv(CSV_FILE)
+df['# Voters'] = df['# Voters'].str.replace(',', '').astype(int)
 
-# Get an array of all the conversation URLs
-conversation_urls = df["Conversation URL"].dropna().tolist()
-convo_ids = [urlparse(url).path.split('/')[-1] for url in conversation_urls]
+# Sort so that smaller conversations come first.
+df = df.sort_values(by="# Voters")
 
-print("Closed conversation IDs:")
-for cid in convo_ids:
-    Loader(conversation_id=cid, output_dir=f"data/{cid}")
-    raise
+def get_id_from_url(convo_url: str) -> str:
+    return urlparse(convo_url).path.split('/')[-1]
+
+for _, row in df.iterrows():
+    convo_id = get_id_from_url(row["Conversation URL"])
+    print(f"Processing conversation {convo_id}... ({row['# Voters']} participants)")
+    Loader(conversation_id=convo_id, output_dir=f"data/{convo_id}")
