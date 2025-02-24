@@ -12,6 +12,12 @@ df = df.sort_values(by="Date Created", ascending=True)
 
 # Strip commas out of numeric fields, and set to nullable int type.
 df['# Voters'] = df['# Voters'].str.replace(',', '').astype('Int64')
+df['# Cmnts'] = df['# Cmnts'].str.replace(',', '').astype('Int64')
+df['# Grps'] = df['# Grps'].astype('Int64')
+
+# Move conversation ID column to front of dataframe for visibility.
+column_to_move = df.pop("Conversation URL")
+df.insert(0, "Conversation URL", column_to_move)
 
 # Filter for only rows where "Closed?" is "✅ yes"
 closed_df = df[df["Closed?"] == "✅ yes"]
