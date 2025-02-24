@@ -6,7 +6,6 @@ CSV_FILE = "conversations.csv"
 
 # Load the CSV data
 df = pd.read_csv(CSV_FILE)
-df['# Voters'] = df['# Voters'].str.replace(',', '').astype(int)
 
 # Sort so that smaller conversations come first.
 df = df.sort_values(by="# Voters")
