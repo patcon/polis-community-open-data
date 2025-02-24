@@ -10,6 +10,9 @@ df = pd.read_csv(CSV_URL, parse_dates=["Date Created"])
 # Sort by "Date Created" (oldest first)
 df = df.sort_values(by="Date Created", ascending=True)
 
+# Strip commas out of numeric fields.
+df['# Voters'] = df['# Voters'].str.replace(',', '').astype(int)
+
 # Filter for only rows where "Closed?" is "✅ yes"
 closed_df = df[df["Closed?"] == "✅ yes"]
 
