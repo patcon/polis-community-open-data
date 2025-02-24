@@ -1,0 +1,23 @@
+name: Daily CSV Processing
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering from GitHub Actions UI
+
+jobs:
+  process_csv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: make install
+
+      - name: Update CSV
+        run: make update-csv
+
+      - name: Fetch datasets
+        run: make fetch-data

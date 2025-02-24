@@ -1,0 +1,13 @@
+[project]
+name = "polis-community-open-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.3",
+    "reddwarf",
+]
+
+[tool.uv.sources]
+reddwarf = { git = "https://github.com/polis-community/red-dwarf-democracy", rev = "main" }
