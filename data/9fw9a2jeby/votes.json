@@ -1,0 +1,137 @@
+[
+    {
+        "participant_id": 1,
+        "statement_id": 0,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621438667300.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 1,
+        "statement_id": 1,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621438666321.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 2,
+        "statement_id": 0,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621438691365.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 2,
+        "statement_id": 1,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621438692475.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 3,
+        "statement_id": 0,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456132342.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 3,
+        "statement_id": 1,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621456142797.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 4,
+        "statement_id": 0,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456156770.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 4,
+        "statement_id": 1,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456158116.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 4,
+        "statement_id": 2,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456235322.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 5,
+        "statement_id": 0,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621456257475.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 5,
+        "statement_id": 1,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621456253181.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 5,
+        "statement_id": 2,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1621456248133.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 6,
+        "statement_id": 0,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456286822.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 6,
+        "statement_id": 1,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456294925.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    },
+    {
+        "participant_id": 6,
+        "statement_id": 2,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1621456282754.0,
+        "conversation_id": "9fw9a2jeby",
+        "datetime": null
+    }
+]
