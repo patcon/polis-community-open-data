@@ -138778,5 +138778,41 @@
         "modified": 1739452424750.0,
         "conversation_id": "6bmejxaanc",
         "datetime": null
+    },
+    {
+        "participant_id": 500,
+        "statement_id": 8,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1740421446384.0,
+        "conversation_id": "6bmejxaanc",
+        "datetime": null
+    },
+    {
+        "participant_id": 500,
+        "statement_id": 95,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1740421478083.0,
+        "conversation_id": "6bmejxaanc",
+        "datetime": null
+    },
+    {
+        "participant_id": 500,
+        "statement_id": 96,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1740421626282.0,
+        "conversation_id": "6bmejxaanc",
+        "datetime": null
+    },
+    {
+        "participant_id": 500,
+        "statement_id": 97,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1740421683330.0,
+        "conversation_id": "6bmejxaanc",
+        "datetime": null
     }
 ]

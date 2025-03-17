@@ -4552,5 +4552,32 @@
         "modified": 1739196892197.0,
         "conversation_id": "4cvkai2ctw",
         "datetime": null
+    },
+    {
+        "participant_id": 36,
+        "statement_id": 34,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1740466195060.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 36,
+        "statement_id": 38,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1740466173621.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 36,
+        "statement_id": 45,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1740479150594.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
     }
 ]
