@@ -4579,5 +4579,59 @@
         "modified": 1740479150594.0,
         "conversation_id": "4cvkai2ctw",
         "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 1,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1743702844399.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 2,
+        "vote": -1,
+        "weight_x_32767": 0,
+        "modified": 1743702835863.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 3,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1743702838690.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 12,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1743702816629.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 18,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1743702821385.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
+    },
+    {
+        "participant_id": 37,
+        "statement_id": 30,
+        "vote": 1,
+        "weight_x_32767": 0,
+        "modified": 1743702826382.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
     }
 ]
