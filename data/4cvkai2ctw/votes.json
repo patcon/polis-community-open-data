@@ -4633,5 +4633,14 @@
         "modified": 1743702826382.0,
         "conversation_id": "4cvkai2ctw",
         "datetime": null
+    },
+    {
+        "participant_id": 38,
+        "statement_id": 27,
+        "vote": 0,
+        "weight_x_32767": 0,
+        "modified": 1744901788186.0,
+        "conversation_id": "4cvkai2ctw",
+        "datetime": null
     }
 ]
